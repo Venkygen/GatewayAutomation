@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="PortalTests">
+		<classes>
+
+			<class name="com.gateway.tests.HappyPathPortalTests">
+				<parameter name="Url"
+					value="https://stage-apiportal.wavemakeronline.com/login" />
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<test name="LaunchPadTests">
+		<classes>
+
+			<class name="com.gateway.tests.HappyPathTests">
+				<parameter name="Url"
+					value="https://stage-gw.wavemakeronline.com/gateway" />
+			</class>
+		</classes>
+
+	</test>
+
+
+</suite> 

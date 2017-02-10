@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none" thread-count="2">
+ <test name="LaunchPadTests">
+		<classes>
+			<class name="com.gateway.tests.HappyPathTests">
+				<parameter name="Url"
+					value="https://stage-gw.wavemakeronline.com/gateway" />
+				<parameter name="Browser" value="Chrome" />
+			</class>
+		</classes>
+	</test> 	
+<!-- 	<test name="PortalTests" group-by-instances="true">
+		<classes>
+			<class name="com.gateway.tests.HappyPathPortalTests">
+				<parameter name="Url"
+					value="https://stage-apiportal.wavemakeronline.com/login" />
+				<parameter name="Browser" value="Chrome" />
+			</class>
+		</classes>
+	</test> -->
+</suite> 

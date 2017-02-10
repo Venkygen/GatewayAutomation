@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="none">
+  <test name="LaunchPadTests(failed)" parallel="none">
+    <classes>
+      <class name="com.gateway.tests.HappyPathTests">
+        <parameter name="Browser" value="Chrome"/>
+        <parameter name="Url" value="https://stage-gw.wavemakeronline.com/gateway"/>
+        <methods>
+          <include name="afterMethod"/>
+          <include name="packageCreation"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.gateway.tests.HappyPathTests -->
+    </classes>
+  </test> <!-- LaunchPadTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
